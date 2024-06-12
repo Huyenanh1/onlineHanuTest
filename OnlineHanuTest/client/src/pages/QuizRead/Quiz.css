@@ -1,0 +1,77 @@
+.container-quiz {
+    margin: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.container-quiz .btn{
+    padding: .2em 1.7em;
+    border: none;
+    border-radius: .1em;
+    font-size: 1.2em;
+}
+
+.container-quiz .btn:hover{
+    cursor: pointer;
+    background-color: #f0f0f0;
+    color: #202020;
+}
+
+.next{
+    background-color: brown;
+    justify-self: flex-end;
+}
+
+.prev{
+    background-color: brown;
+    justify-self: center;
+    padding: 10px 20px;
+
+}
+.question{
+    margin-bottom: 100px;
+}
+.question .ques{
+    list-style: none;
+    text-align: left;
+    font-size: 1rem;
+}
+.list-of-ques{
+    list-style: none;
+    text-align: left;
+}
+.question .ques li{
+    text-align: left;
+    padding-left: 30px;
+}
+.question .ques li input[type=radio]{
+    
+
+}
+.question .ques li label{
+    padding: 10px 20px 10px 20px;
+    font-size: 0.9rem;
+}
+.question .ques li:hover label{
+    color: brown;
+}
+.grid-1 .grid-test{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.grid-test .paragraph {
+    text-align: justify;
+    box-shadow: 5px 0px 10px rgba(0, 0, 0, .04);
+    padding: 30px;
+ 
+}
+.grid-1 h4 {
+    text-decoration: underline;
+}
+
+
+
+
